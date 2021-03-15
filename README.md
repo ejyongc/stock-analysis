@@ -16,6 +16,8 @@ Afer running the analysis for both years we can immediately identify that 2017 h
 
 In Steve's parents case, we can see that the DQ stock had a high positive return of +199.4% in 2017, but in 2018 we see a significant drop to -62.6%. 
 
+
+
 ## Refactoring Analyis
 The first siginicant difference between the original and refactored script is the output of the data. 
 
@@ -23,11 +25,10 @@ In the original script, we decided to output the *ticker, totalVolume, and Retur
 
 This refaction allowed us to improve times on the *2017* and *2018* analysis and make our report more efficient. For example: 
 
-    ### Original Script - The analaysis for the years 2017 and 2018 took 1.71875 seconds to run on each.
-    ### Refactored Script - The same analysis for years *2017* and *2018*
-
-
-
+    ### Original Script - The analaysis for the years 2017 and 2018 took 1.355469  seconds to run on each.
+    ### Refactored Script - The same analysis for years *2017* and *2018* took 1.71875 to run on each. 
+    
+Althought is not a huge difference (0.183594 delta), the refactored script is more efficient and faster than the origial script since it utilizes a different method to display the outputs.
 
 
 4. Summary: In a summary statement, address the following questions.

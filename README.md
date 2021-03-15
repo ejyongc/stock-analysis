@@ -18,7 +18,11 @@ The first siginicant difference between the original and refactored script is th
 
 In the original script, we decided to output the *ticker, totalVolume, and Return* variables after each ticker *for loop*. On the refactored script, we utilize *Arrays* to store the *ticker, *totalVolume, and Return* calculated values, and later we call those variables via a *for loop* script.  
 
+Original script output
 ![image](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Original%20Script.png)
+
+Refactored script output
+![image](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Refactored%20Script.png)
 
 This refaction allowed us to improve the script run time on the *2017* and *2018* analysis and make our report more efficient. For example: 
 #### Original Script 
@@ -29,7 +33,6 @@ This refaction allowed us to improve the script run time on the *2017* and *2018
 ![image](https://github.com/ejyongc/stock-analysis/blob/main/2018%20Stock%20Analysis%20-%20Refactored%20Script.png)
     
 Althought is not a huge difference (0.183594 delta), the refactored script is more efficient and faster than the origial script since it utilizes a different method to display the outputs.
-
 
 4. Summary: In a summary statement, address the following questions.
         3.1 What are the advantages or disadvantages of refactoring code?

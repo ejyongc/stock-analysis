@@ -1,10 +1,9 @@
 # stock-analysis
 
-1. Overview of Project: Explain the purpose of this analysis.
 ### 1- Analysis Overview
-In this analysis we are refactoring a workbook we have previously created for Steve. This new version of the report we will include a more robust dataset to include the entire stock market for the last couple of years. 
+In this analysis we are refactoring a script we have previously created for Steve to help his parents identify opportunities on the stock market. The new version of the script analyzes the same dataset on a more efficient way and it includes the entire stock market for the last couple of years.    
 
-The purpose of this project is to provide Steve a comprehensive report that allows him to see the performance of the entire                     stock market by year, so he can make better recommendation to his parents on where to invest their money. 
+The purpose of this project is to provide Steve a comprehensive report that allows him to see the performance of the entire stock market by year, so he can make better recommendation to his parents on where they should be investing their money. 
 
 2. Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 

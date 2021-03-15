@@ -35,7 +35,7 @@ The analaysis for the years 2017 and 2018 took 1.355469  seconds to run on each.
 ##### Refactored Script
 The same analysis for years *2017* and *2018* took 1.71875 to run on each. 
 
-![image](https://github.com/ejyongc/stock-analysis/blob/main/Resources/2018%20Stock%20Analysis%20-%20Refactored%20Script.png)
+![image](https://github.com/ejyongc/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
     
 Althought is not a huge difference (0.183594 delta), the refactored script is more efficient and faster than the origial script since it utilizes a different method to display the outputs.
 

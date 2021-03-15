@@ -24,10 +24,14 @@ In the original script, we decided to output the *ticker, totalVolume, and Retur
 ##### Refactored script output
 ![image](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Refactored%20Script.png)
 
+
+#### Report Efficiency
 This refaction allowed us to improve the script run time on the *2017* and *2018* analysis and make our report more efficient. For example: 
+
 ##### Original Script 
 The analaysis for the years 2017 and 2018 took 1.355469  seconds to run on each.
 ![image](https://github.com/ejyongc/stock-analysis/blob/main/2018%20Stock%20Analysis%20-%20Original%20Script.png)
+
 ##### Refactored Script
 The same analysis for years *2017* and *2018* took 1.71875 to run on each. 
 ![image](https://github.com/ejyongc/stock-analysis/blob/main/2018%20Stock%20Analysis%20-%20Refactored%20Script.png)

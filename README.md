@@ -9,7 +9,7 @@ The purpose of this project is to provide Steve a comprehensive report that allo
 2. Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
 ### Stock Analysis
-Afer running the analysis for both years we can immediately identify that 2017 had much better returns than 2018. In contrast to 2017, where all tickers had a positive return with the exception of one ticker (TERP), 2018 mostly had negative returns with the exception of *ENPH (+81.9%) and *RUN (+84.0%). 
+Afer running the analysis for both years we can immediately identify that 2017 had much better returns than 2018. In contrast to 2017, where all tickers had a positive return with the exception of one ticker (TERP), 2018 mostly had negative returns with the exception of ENPH (+81.9%) and RUN (+84.0%). 
 
 In Steve's parents case, we can identify that the DQ stock had a high positive return of +199.4% in 2017, but in 2018 we see a significant drop to -62.6%. This analysis could greately serve Steve's parents since now they might want to consider diversifying their portfolio in stocks with better returns. 
 

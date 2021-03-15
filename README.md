@@ -15,18 +15,19 @@ In Steve's parents case, we can identify that the DQ stock had a high positive r
 
 ### 3- Refactoring Analyis 
 
-The first siginicant difference between the [Original srip output]((https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Original%20Script.png)
-) and [Refactored Script Output](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Refactored%20Script.png)
+#### 3.1- Output Script
+The first siginicant difference between both scripts is how we coded the [Original Script Output](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Original%20Script.png)
+and the [Refactored Script Output](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Refactored%20Script.png)
 
 In the original script, we decided to output the *ticker, totalVolume, and Return* variables after the ticker *for loop*. On the refactored script, we utilize *Arrays* to store the *ticker, *totalVolume, and Return* calculated values, and later we call those variables via a *for loop* script. (screenshots below) 
 
-#### Original script output
+##### Original script output
 ![image](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Original%20Script.png)
 
-#### Refactored script output
+##### Refactored script output
 ![image](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Refactored%20Script.png)
 
-#### Report Efficiency
+#### 3.2- Report Efficiency
 This refaction allowed us to improve the script run time on the *2017* and *2018* analysis and make our report more efficient. For example: 
 
 ##### Original Script 

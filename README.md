@@ -13,16 +13,16 @@ In Steve's parents case, we can identify that the DQ stock had a high positive r
 ### 3- Refactoring Analyis 
 
 #### 3.1- Output Script
-The first siginicant difference between both scripts is how we coded the [Original Script Output](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Original%20Script.png)
-and the [Refactored Script Output](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Refactored%20Script.png)
+The first siginicant difference between both scripts is how we coded the [Original Script Output](https://github.com/ejyongc/stock-analysis/blob/main/Resources/Output%20-%20Original%20Script.png)
+and the [Refactored Script Output](https://github.com/ejyongc/stock-analysis/blob/main/Resources/Output%20-%20Refactored%20Script.png)
 
 In the original script, we decided to output the *ticker, totalVolume, and Return* variables after the ticker *for loop*. On the refactored script, we utilize *Arrays* to store the *ticker, *totalVolume, and Return* calculated values, and later we call those variables via a *for loop* script. (screenshots below) 
 
 ##### Original script output
-![image](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Original%20Script.png)
+![image](https://github.com/ejyongc/stock-analysis/blob/main/Resources/Output%20-%20Original%20Script.png)
 
 ##### Refactored script output
-![image](https://github.com/ejyongc/stock-analysis/blob/main/Output%20-%20Refactored%20Script.png)
+![image](https://github.com/ejyongc/stock-analysis/blob/main/Resources/Output%20-%20Refactored%20Script.png)
 
 #### 3.2- Report Efficiency
 This refaction allowed us to improve the script run time on the *2017* and *2018* analysis and make our report more efficient. For example: 
@@ -30,12 +30,12 @@ This refaction allowed us to improve the script run time on the *2017* and *2018
 ##### Original Script 
 The analaysis for the years 2017 and 2018 took 1.355469  seconds to run on each.
 
-![image](https://github.com/ejyongc/stock-analysis/blob/main/2018%20Stock%20Analysis%20-%20Original%20Script.png)
+![image](https://github.com/ejyongc/stock-analysis/blob/main/Resources/2018%20Stock%20Analysis%20-%20Original%20Script.png)
 
 ##### Refactored Script
 The same analysis for years *2017* and *2018* took 1.71875 to run on each. 
 
-![image](https://github.com/ejyongc/stock-analysis/blob/main/2018%20Stock%20Analysis%20-%20Refactored%20Script.png)
+![image](https://github.com/ejyongc/stock-analysis/blob/main/Resources/2018%20Stock%20Analysis%20-%20Refactored%20Script.png)
     
 Althought is not a huge difference (0.183594 delta), the refactored script is more efficient and faster than the origial script since it utilizes a different method to display the outputs.
 

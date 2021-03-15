@@ -43,3 +43,8 @@ Althought is not a huge difference (0.183594 delta), the refactored script is mo
 4. Summary: In a summary statement, address the following questions.
         3.1 What are the advantages or disadvantages of refactoring code?
         3.2 How do these pros and cons apply to refactoring the original VBA script?
+
+### Summary & Conclussions 
+As seen in this excercise, refactoring could be used to make the code more efficient and maintainable. When we refactrored the output of the script we were able to reduce the time that it takes to run the code.  
+
+Although refactoring is a good practice that can make the code easier to understand and debug, the process of refactoring could take a long time and it could actually make the script more complex and confusing. In this specific case we spent several hours refactoring the code and we can see the immediate results in terms of efficiency.  On the long term, I believe the refactored script will be easier to update and modify if ever needed.
